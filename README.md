@@ -41,8 +41,10 @@ This tool was created algoritmically by Claude AI.
 
 As this is based on the MSIRGB tool, the same list of supported motheboards should apply:
 
-This repository is archived, therefore this list may be out-of-date. The following list was correct at the time of archival. More motherboards may work.
 
+
+    This repository is archived, therefore this list may be out-of-date. The following list was correct at the time of archival. More motherboards may work.
+    
     B450I GAMING PLUS AC (works)
     X470 GAMING PLUS (works)
     X470 GAMING PRO (works)
