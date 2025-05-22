@@ -27,7 +27,7 @@ The executable will be created at `build\Release\no_led_msi.exe`
 
 ## Technical Details
 
-This tool is based on the MSIRGB project and uses the same low-level hardware access methods:
+This tool is based on the ixjf/MSIRGB project and uses the same low-level hardware access methods:
 
 - Uses the inpoutx64.sys driver for direct port I/O access
 - Accesses the Super I/O chip registers to control LED settings
@@ -39,7 +39,7 @@ This tool was created algoritmically by Claude AI.
 
 ## Supported Motherboards
 
-As this is based on the MSIRGB tool, the same list of supported motheboards should apply:
+As this is based on ixjf/MSIRGB, the same list of supported motheboards should apply:
 
 
 
