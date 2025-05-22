@@ -2,8 +2,6 @@
 
 A standalone Windows application that turns off RGB LED lights on MSI motherboards.
 
-(This tool was created by Claude AI)
-
 ## Requirements
 
 - Windows 10/11
@@ -36,6 +34,8 @@ This tool is based on the MSIRGB project and uses the same low-level hardware ac
 - Specifically sets the LED disable bits in the RGB control registers
 
 The tool only performs the LED disable operation and does not include GUI or advanced features.
+
+This tool was created algoritmically by Claude AI.
 
 ## Supported Motherboards
 
