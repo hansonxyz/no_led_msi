@@ -1,0 +1,10 @@
+^Z:\PROJECTS\MSI_LIGHT_CLI\NO_LED_MSI\BUILD\CMAKEFILES\EF7AA704F6BAC2A99E1E2BDE6782E56F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SZ:/projects/msi_light_cli/no_led_msi -BZ:/projects/msi_light_cli/no_led_msi/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file Z:/projects/msi_light_cli/no_led_msi/build/no_led_msi.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

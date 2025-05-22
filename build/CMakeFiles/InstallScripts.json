@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"Z:/projects/msi_light_cli/no_led_msi/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

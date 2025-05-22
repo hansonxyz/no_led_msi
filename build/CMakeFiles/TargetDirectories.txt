@@ -1,0 +1,3 @@
+Z:/projects/msi_light_cli/no_led_msi/build/CMakeFiles/no_led_msi.dir
+Z:/projects/msi_light_cli/no_led_msi/build/CMakeFiles/ALL_BUILD.dir
+Z:/projects/msi_light_cli/no_led_msi/build/CMakeFiles/ZERO_CHECK.dir
