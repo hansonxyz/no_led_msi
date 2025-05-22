@@ -2,6 +2,8 @@
 
 A standalone Windows application that turns off RGB LED lights on MSI motherboards.
 
+(This tool was created by Claude AI)
+
 ## Requirements
 
 - Windows 10/11
