@@ -2,28 +2,22 @@
 
 A standalone Windows application that turns off RGB LED lights on MSI motherboards.
 
-## Requirements
+## Usage
 
-- Windows 10/11
-- MSI motherboard with supported chipset
-- Administrator privileges (required for hardware access)
-- Visual Studio 2019 or later with C++ development tools
-- CMake 3.16 or later
+Running no_led_msi.exe will detect and turn off the RGB LEDs if your motherboard is supported.
+
+I recommend creating a "Scheduled Task" to run this application on workstation login, and screen unlock, with the scheduled task configured to run with administrator permissions and a 15 second delay.  This should cover all the bases on keeping the RGB LEDs off permanently on your suystem,
 
 ## Building
 
-1. Open Command Prompt as Administrator
-2. Navigate to this directory
-3. Run `build.bat`
+Requires:
 
-The executable will be created at `build\Release\no_led_msi.exe`
+- Visual Studio 2019 or later with C++ development tools
+- CMake 3.16 or later
 
-## Usage
+Alternatively, you may install the dependencies to build automatically, by running "install-dependencies.ps1" within powershell.  This tool assumes you have chocolatey installed. 
 
-1. Run `no_led_msi.exe` as Administrator
-2. The program will automatically detect if you have an MSI motherboard
-3. If supported, it will turn off the RGB LEDs and exit
-4. No additional configuration is required
+Once the dependencies are in place, run build.bat, and you should have a compiled binary.  The executable will be created at `build\Release\no_led_msi.exe`
 
 ## Technical Details
 
