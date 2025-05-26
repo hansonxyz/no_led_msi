@@ -6,7 +6,7 @@ A standalone Windows application that turns off RGB LED lights on MSI motherboar
 
 Running no_led_msi.exe will detect and turn off the RGB LEDs if your motherboard is supported.
 
-I recommend creating a "Scheduled Task" to run this application on workstation login, and screen unlock, with the scheduled task configured to run with administrator permissions and a 15 second delay.  This should cover all the bases on keeping the RGB LEDs off permanently on your suystem,
+To make this effect permanent, open up "Task Scheduler" and create a task which runs as highest permissions, as the current user, triggered when the workstation unlocks, and another trigger for when the workstation logs in, to run the program periodically.  I create my triggers with a 15 second delay.  This should cover all the bases on keeping the RGB LEDs off permanently on your suystem,
 
 ## Building
 
